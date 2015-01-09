@@ -1,0 +1,14 @@
+{application, swapi,
+ [
+  {description, "An Erlang swapi library"},
+  {vsn, "1"},
+  {modules, [
+             swapi
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
