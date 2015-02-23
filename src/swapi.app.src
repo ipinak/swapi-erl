@@ -1,6 +1,6 @@
 {application, swapi,
  [
-  {description, "An Erlang swapi library"},
+  {description, "An Erlang for swapi.co library"},
   {vsn, "1"},
   {modules, [
              swapi
@@ -8,7 +8,8 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  inets
                  ]},
   {env, []}
  ]}.
