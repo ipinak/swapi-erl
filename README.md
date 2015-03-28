@@ -3,9 +3,9 @@ Erlang library for swapi.co http://swapi.co
 
 # Usage
 
-   git clone https://github.com/ipinak/swapi-erl.git
-   rebar co
-   rebar shell
+    git clone https://github.com/ipinak/swapi-erl.git
+    rebar co
+    rebar shell
    
 When you start it on an Erlang shell you will need `inets`, so type the following:
 
