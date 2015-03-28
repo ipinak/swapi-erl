@@ -9,30 +9,30 @@ Erlang library for swapi.co http://swapi.co
    
 When you start it on an Erlang shell you will need `inets`, so type the following:
 
-   1> inets:start().
-   ok
-   2> l(swapi).
-   abcast
-   3> swapi:planets(1).
-   {ok,{planets,"arid","2014-12-09T13:50:49.641000Z","10465",
-                "2014-12-21T20:48:04.175778Z",
-                ["http://swapi.co/api/films/1/",
-                 "http://swapi.co/api/films/3/",
-                 "http://swapi.co/api/films/4/",
-                 "http://swapi.co/api/films/5/",
-                 "http://swapi.co/api/films/6/"],
-                 "1 standard","Tatooine","304","200000",
-                ["http://swapi.co/api/people/1/",
-                 "http://swapi.co/api/people/2/",
-                 "http://swapi.co/api/people/4/",
-                 "http://swapi.co/api/people/6/",
-                 "http://swapi.co/api/people/7/",
-                 "http://swapi.co/api/people/8/",
-                 "http://swapi.co/api/people/9/",
-                 "http://swapi.co/api/people/11/",
-                 "http://swapi.co/api/people/43/",
-                 "http://swapi.co/api/people/62/"],
-                 "23","1","desert","http://swapi.co/api/planets/1/"}}
+    1> inets:start().
+    ok
+    2> l(swapi).
+    abcast
+    3> swapi:planets(1).
+    {ok,{planets,"arid","2014-12-09T13:50:49.641000Z","10465",
+                 "2014-12-21T20:48:04.175778Z",
+                 ["http://swapi.co/api/films/1/",
+                  "http://swapi.co/api/films/3/",
+                  "http://swapi.co/api/films/4/",
+                  "http://swapi.co/api/films/5/",
+                  "http://swapi.co/api/films/6/"],
+                  "1 standard","Tatooine","304","200000",
+                 ["http://swapi.co/api/people/1/",
+                  "http://swapi.co/api/people/2/",
+                  "http://swapi.co/api/people/4/",
+                  "http://swapi.co/api/people/6/",
+                  "http://swapi.co/api/people/7/",
+                  "http://swapi.co/api/people/8/",
+                  "http://swapi.co/api/people/9/",
+                  "http://swapi.co/api/people/11/",
+                  "http://swapi.co/api/people/43/",
+                  "http://swapi.co/api/people/62/"],
+                  "23","1","desert","http://swapi.co/api/planets/1/"}}
 
 
 # License
